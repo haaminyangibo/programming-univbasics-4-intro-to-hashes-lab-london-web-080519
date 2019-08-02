@@ -7,7 +7,6 @@ def my_hash
   
   my_hash = { :name => 0}
              
-  puts my_hash
 end
 
 def pioneer
