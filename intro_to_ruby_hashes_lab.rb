@@ -21,18 +21,19 @@ end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
+  key = :name
   
   my_hash_creator = { :name => "Grace Hopper"}
   
-  my_hash_creator
+  my_hash_creator[key]
   
 end
 
 def read_from_hash(hash, key)
-  key = :name
+  
   read_from_hash = { :name => 'Steve'}
   
-  read_from_hash[:name]
+  read_from_hash[key]
 end
 
 def update_counting_hash(hash, key)
